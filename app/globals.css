@@ -3,16 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  
+  --foreground-rgb: 0, 0, 0; /* Change this if you need a different text color */
+  --background-start-rgb: 255, 255, 255; /* Set background to white */
+  --background-end-rgb: 255, 255, 255;   /* Set background to white */
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 0, 0, 0; /* Assuming you'd like black text on white background */
+    --background-start-rgb: 255, 255, 255; /* White background */
+    --background-end-rgb: 255, 255, 255;   /* White background */
   }
 }
 
