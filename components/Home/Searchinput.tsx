@@ -2,21 +2,21 @@ import React from "react";
 
 function SearchInput() {
   return (
-    <div className="mt-5">
+    <div className="mt-5 px-4">
       <h2
-        className="text-center text-lg md:text-xl text-gray-400 mb-3"
+        className="text-center text-base md:text-lg lg:text-xl text-gray-400 mb-3"
       >
         Let’s Search What You Need
       </h2>
       <div className="flex justify-center">
-        <div className="flex bg-gray-100 p-2 px-4 md:px-6 gap-2 md:gap-4 rounded-full divide-x divide-gray-300 shadow-sm">
+        <div className="flex items-center bg-gray-100 py-1 px-2 md:py-1 md:px-4 lg:py-2 lg:px-6 gap-1 md:gap-3 lg:gap-4 rounded-full divide-x divide-gray-300 shadow-sm max-w-xs md:max-w-md lg:max-w-lg w-full">
           {/* Location Input */}
           <div className="flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-5 h-5 text-gray-600"
+              className="w-4 h-4 md:w-5 md:h-5 text-gray-600"
             >
               <path
                 fillRule="evenodd"
@@ -27,14 +27,14 @@ function SearchInput() {
             <input
               type="text"
               placeholder="Location"
-              className="p-2 outline-none bg-transparent text-sm md:text-base text-gray-700"
+              className="pl-1 md:pl-2 p-1 text-xs md:text-sm lg:text-base outline-none bg-transparent text-gray-700 w-24 md:w-32 lg:w-40"
             />
           </div>
           {/* Date Input */}
-          <div className="flex items-center">
+          <div className="flex items-center pl-1 md:pl-2">
             <input
               type="date"
-              className="p-2 outline-none bg-transparent text-sm md:text-base text-gray-700"
+              className="p-1 text-xs md:text-sm lg:text-base outline-none bg-transparent text-gray-700 w-24 md:w-32 lg:w-40"
             />
           </div>
         </div>
