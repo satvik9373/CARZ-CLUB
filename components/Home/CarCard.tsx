@@ -22,7 +22,7 @@ border-blue-500 '>
     <h2 className='text-[28px] font-bold mb-2'>
         <span className='text-[12px] font-light'>$ </span>
         {car.price}
-        <span className='text-[12px] font-light'> /day</span></h2>
+       </h2>
         <div className='flex justify-center'>
     <Image src={car?.image?.url}
         alt={car.name}
