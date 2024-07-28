@@ -5,7 +5,9 @@ function CarsList(props:any) {
   return (
     <div>
         {props.carsList.map((car:any,index:number)=>(
-            <div>
+            <div className='grid grid-cols-2 
+            md:grid-cols-3
+            lg:grid-cols-4'>
                 <CarCard car ={car}/>
                
                 </div>
