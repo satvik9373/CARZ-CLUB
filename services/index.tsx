@@ -11,6 +11,10 @@ query carLists {
     price
     publishedAt
     updatedAt
+    image {
+      url
+    }
+      carType
   }
 }
 `
