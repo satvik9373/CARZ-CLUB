@@ -2,8 +2,6 @@
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import { FaGasPump } from "react-icons/fa";
-
-import { MdAirlineSeatReclineNormal } from "react-icons/md";
 import { PiSteeringWheelFill } from "react-icons/pi";
 function CarCard(props:any) {
     const [car,setCar]=useState<any>();
@@ -16,7 +14,7 @@ function CarCard(props:any) {
     },[props.car])
   return car&&(
     <div 
-    className='group bg-gray-50 p-2 sm:p-5 rounded-3xl m-1 sm:m-5
+    className=' group bg-gray-50 p-2 sm:p-5 rounded-3xl m-1 sm:m-5
 hover:bg-white 
 hover:border-[1px] cursor-pointer duration-50
 border-blue-500 '>
